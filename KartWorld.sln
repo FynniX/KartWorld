@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intermediate", "Intermediate", "{FFE8D660-C4BF-4F4E-BFEC-A03AD31A4A54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{20FEC044-36AB-41D9-9110-FDF7E798577C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildRulesProjects", "BuildRulesProjects", "{71017007-AA25-4FE8-B957-36C0B30C5C34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KartWorldModuleRules", "Intermediate\Build\BuildRulesProjects\KartWorldModuleRules\KartWorldModuleRules.csproj", "{776530B4-17F0-4D25-A747-8D7306CC6A3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{776530B4-17F0-4D25-A747-8D7306CC6A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776530B4-17F0-4D25-A747-8D7306CC6A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776530B4-17F0-4D25-A747-8D7306CC6A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776530B4-17F0-4D25-A747-8D7306CC6A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20FEC044-36AB-41D9-9110-FDF7E798577C} = {FFE8D660-C4BF-4F4E-BFEC-A03AD31A4A54}
+		{71017007-AA25-4FE8-B957-36C0B30C5C34} = {20FEC044-36AB-41D9-9110-FDF7E798577C}
+		{776530B4-17F0-4D25-A747-8D7306CC6A3B} = {71017007-AA25-4FE8-B957-36C0B30C5C34}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3678FACD-BC0B-4E21-97DC-1E69385BA4E4}
+	EndGlobalSection
+EndGlobal
